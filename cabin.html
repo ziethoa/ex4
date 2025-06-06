@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best document translation Tool Online | Doctranslate.io</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.3.2/css/flag-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/css/select2.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="cabin">
+    <div id="overLay"></div>
+    <div id="languageOverlay"></div>
+    <header>
+        <section class="navbar" id="navbar">
+            <div class="img-logo">
+                <a href="index.html"><img src="assets/logo-header-cabin.png" alt="logo"></a>
+            </div>
+            <div class="nav-function">
+                <a href="index.html" class="nor-word">Translation</a>
+                <a href="#" class="nor-word active">Live Translation <span class="new">New</span></a>
+                <div class="dropdown">
+                    <p class="nor-word">Get in Touch <i class="fa-solid fa-chevron-down"></i></p>
+                    <div class="dropdown-content">
+                        <div class="for-bus drop-item">
+                            <ul class="nor-2-bold-word">
+                                <li><a href="#" class="nor-2-word">For Business</a></li>
+                                <li><a href="#" class="nor-2-word">About us</a></li>
+                            </ul>
+                        </div>
+                        <div class="faq drop-item">
+                            <ul class="nor-2-bold-word">
+                                <li><a href="#" class="nor-2-word">FAQ</a></li>
+                                <li><a href="#" class="nor-2-word">User manual</a></li>
+                                <li><a href="#" class="nor-2-word">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="translate">
+                    <p class="nor-word"><span class="fi fi-us"></span> English <i class="fa-solid fa-chevron-down"></i>
+                    </p>
+
+                </div>
+            </div>
+            <div class="credit-signIn">
+                
+                <a href="#" class="signIn"><button>Sign in</button></a>
+                <div class="menu" id="menuBtn"><i class="fa-solid fa-bars"></i></div>
+                <div class="close" id="closeBtn"><i class="fa-solid fa-xmark close"></i></div>
+            </div>
+
+            <div class="nav-down" id="downNav">
+                <div class="translate">
+                    <div class="title-big">
+                        <p class="nor-word"><span class="fi fi-us"></span> English <i
+                                class="fa-solid fa-chevron-down"></i>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="title-big dropdown-toggle">
+                        <p class="nor-bold-word">Feature</p>
+                        <i class="fa-solid fa-chevron-down arrow active"></i>
+                    </div>
+                    <div class="navdown-content" id="nav-feature">
+                        <div class="navdown-item item-feature">
+                            <a href="#" class="nor-2-word"><i class="fa-regular fa-file-lines"></i>Document
+                                Translation</a>
+                        </div>
+                        <div class="navdown-item item-feature">
+                            <a href="#" class="nor-2-word"><i class="fa-solid fa-headphones"></i>Live Translation</a>
+                        </div>
+                        <div class="navdown-item item-feature">
+                            <a href="#" class="nor-2-word"><i class="fa-solid fa-font"></i>Text Translation</a>
+                        </div>
+                        <div class="navdown-item item-feature">
+                            <a href="#" class="nor-2-word"><i class="fa-regular fa-image"></i>Image Translation</a>
+                        </div>
+                        <div class="navdown-item item-feature">
+                            <a href="#" class="nor-2-word"><i class="fa-solid fa-video"></i>Video Translation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="explore-navdown">
+                    <div class="title-big dropdown-toggle">
+                        <p class="nor-bold-word">Explore</p>
+                        <i class="fa-solid fa-chevron-down arrow"></i>
+                    </div>
+                    <div class="navdown-content" id="navDown-content">
+                        <div class="enterprise navdown-item">
+                            <ul class="mini-bold-word">
+                                <p class="title">Enterprise solutions</p>
+                                <li><a href="#" class="nor-2-word">Enterprise overview</a></li>
+                                <li><a href="#" class="nor-2-word">Doctranslate On-Premise</a></li>
+                                <li><a href="#" class="nor-2-word">API Integration</a></li>
+                            </ul>
+                        </div>
+                        <div class="company navdown-item">
+                            <ul class="mini-bold-word">
+                                <p class="title">Company</p>
+                                <li><a href="#" class="nor-2-word">About Us</a></li>
+                                <li><a href="#" class="nor-2-word">Blogs</a></li>
+                            </ul>
+                        </div>
+                        <div class="resources navdown-item">
+                            <ul class="mini-bold-word">
+                                <p class="title">Resources</p>
+                                <li><a href="#" class="nor-2-word">FAQ</a></li>
+                                <li><a href="#" class="nor-2-word">User manual</a></li>
+                                <li><a href="#" class="nor-2-word">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <div class="dropdown-content-translate" id="languageDropdown">
+        <div class="dropdown-header">
+            <span>Select website language</span>
+            <button class="close-btn-translate">✖</button>
+        </div>
+        <div class="language-list">
+            <button class="language-btn active"><span class="fi fi-us"></span> English <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-vn"></span> Tiếng Việt <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-jp"></span> 日本語 <i class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-my"></span> Malay <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-sa"></span> العربية <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-es"></span> Español <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-fr"></span> Français <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-de"></span> Deutsch <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-ru"></span> Русский <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-pt"></span> Português <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-th"></span> ไทย <i class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-id"></span> Bahasa Indonesia <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-in"></span> हिंदी <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-kr"></span> 한국어 <i class="fa-solid fa-check check"></i></button>
+        </div>
+    </div>
+    <div class="dropdown-content-translate" id="languageDropdownResponsive">
+        <div class="dropdown-header">
+            <span>Select website language</span>
+            <button class="close-btn-translate">✖</button>
+        </div>
+        <div class="language-list">
+            <button class="language-btn active"><span class="fi fi-us"></span> English <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-vn"></span> Tiếng Việt <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-jp"></span> 日本語 <i class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-my"></span> Malay <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-sa"></span> العربية <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-es"></span> Español <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-fr"></span> Français <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-de"></span> Deutsch <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-ru"></span> Русский <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-pt"></span> Português <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-th"></span> ไทย <i class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-id"></span> Bahasa Indonesia <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-in"></span> हिंदी <i
+                    class="fa-solid fa-check check"></i></button>
+            <button class="language-btn"><span class="fi fi-kr"></span> 한국어 <i class="fa-solid fa-check check"></i></button>
+        </div>
+    </div>
+    <main>
+        <section class="cabin-content">
+            <div class="title">
+                <p>Revolutionize</p>
+                <p>conversations</p>
+                <p>with AI</p>
+            </div>
+            <div class="translate-transfer">
+                <div class="option">
+                    <select id="prev-language" class="language-select prev-language" style="width: 100%;">
+                        <option value="en" class="nor-2-word">English</option>
+                        <option value="vi" class="nor-2-word">Vietnamese</option>
+                        <option value="ja" class="nor-2-word">Japanese</option>
+                        <option value="zh-CN" class="nor-2-word" selected>Chinese (simplified)</option>
+                        <option value="zh-TW" class="nor-2-word">Chinese (traditional)</option>
+                    </select>
+                </div>
+                <i class="fa-solid fa-right-left"></i>
+                <div class="option">
+                    <select id="after-language" class="language-select after-language" style="width: 100%;">
+                        <option value="en" class="nor-2-word" selected>English</option>
+                        <option value="vi" class="nor-2-word">Vietnamese</option>
+                        <option value="ja" class="nor-2-word">Japanese</option>
+                        <option value="zh-CN" class="nor-2-word">Chinese (simplified)</option>
+                        <option value="zh-TW" class="nor-2-word">Chinese (traditional)</option>
+                    </select>
+                </div>
+            </div>
+            <a href="#"><button class="start-now-btn h2-3xl">Start now</button></a>
+            <div class="image-mascot">
+                <img src="assets/mascot-cabin.png" alt="mascot-cabin">
+            </div>
+        </section>
+    </main>
+    <section class="contact-media">
+        <button class="contact-media-btn cont-me-title" id="cont-me-title"><i
+                class="fa-solid fa-headphones-simple"></i></button>
+        <div class="cont-me-list" id="cont-me-list">
+            <button class="contact-media-btn sms"><i class="fa-solid fa-comment-sms"></i></button>
+            <button class="contact-media-btn messenger"><i class="fa-brands fa-facebook-messenger"></i></button>
+            <button class="contact-media-btn close-cont-me" id="close-cont-me"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
